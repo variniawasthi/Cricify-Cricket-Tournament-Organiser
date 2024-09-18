@@ -1,0 +1,15 @@
+@import "./variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body,
+html {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
