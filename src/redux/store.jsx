@@ -1,7 +1,7 @@
-import { conifgureStore } from "@reduxjs/toolkit";
+import { configureStore } from "@reduxjs/toolkit";
 import tournamentSlice from "./reducers/tournamentSlice";
 
-const store = conifgureStore({
+const store = configureStore({
   reducer: {
     getTournament: tournamentSlice,
   },
