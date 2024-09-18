@@ -60,7 +60,7 @@ const MatchCards = ({ cricketMatches }) => {
         <div className="font-medium text-xs text-textSecondary">
           1st ODI, 15 Sept 2024{" "}
         </div>
-        <div className="bg-red-600 text-white z-10 font-medium p-2.5 flex justify-center items-center rounded-2xl">
+        <div className="bg-red-600 text-white z-10 font-medium p-2.5 sm-custom:p-3 flex justify-center items-center rounded-2xl">
           Live
         </div>
       </div>
