@@ -252,7 +252,7 @@ const Tournament = () => {
                 <>
                   <div
                     key={index}
-                    className={mb-2 flex justify-center items-center flex-col}
+                    className="mb-2 flex justify-center items-center flex-col"
                     onClick={() => handleTeamSelect(index)}
                   >
                     <div
